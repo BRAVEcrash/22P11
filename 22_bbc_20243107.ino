@@ -53,7 +53,7 @@ void setup() {
   Serial.begin(1000000);  
 
   // Set a target distance
-  dist_target = 300; // 15.5 cm, the center of the rail
+  dist_target = 155; // 15.5 cm, the center of the rail
 }
   
 void loop() {
