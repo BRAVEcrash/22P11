@@ -16,9 +16,9 @@
                           // Setting _EMA_ALPHA to 0 effectively disables EMA filter.
 
 // Servo adjustment
-#define _DUTY_MAX 2500  // Servo angle: D degree
+#define _DUTY_MAX 1800  // Servo angle: D degree
 #define _DUTY_NEU 1300  // Servo angle: 0 degree
-#define _DUTY_MIN 1200   // Servo angle: E degree
+#define _DUTY_MIN 900   // Servo angle: E degree
 #define _SERVO_ANGLE_DIFF 85 // Replace with |D - E| degree
 #define _SERVO_SPEED 500 // servo speed limit (unit: degree/second)
 
